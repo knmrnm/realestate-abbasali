@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+    margin-top: 60px;
+    padding: 70px 6vw 28px;
+    background: #181816;
+    color: #fff;
+}
+
+.footer-main {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 60px;
+}
+
+.footer-brand {
+    min-width: 0;
+}
+
+.footer-name {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    text-decoration: none;
+}
+
+.footer-brand p {
+    margin-top: 14px;
+    color: #99958e;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.footer-label {
+    margin-bottom: 8px;
+    color: #6f6c66;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+}
+
+.footer-column a {
+    color: #d5d2cc;
+    font-size: 13px;
+    line-height: 1.4;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    max-width: 1200px;
+    margin: 65px auto 0;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgba(255,255,255,0.12);
+
+    color: #6f6c66;
+    font-size: 11px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    .site-footer {
+        margin-top: 40px;
+        padding: 55px 24px 25px;
+    }
+
+    .footer-main {
+        grid-template-columns: 1fr 1fr;
+        gap: 45px 30px;
+    }
+
+    .footer-brand {
+        grid-column: 1 / -1;
+    }
+
+    .footer-name {
+        font-size: 22px;
+    }
+
+    .footer-bottom {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 7px;
+    }
+
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Abbas Ali Arif — Real Estate Consultant for residential and commercial properties in Mumbai and Dubai. CONCEPT BY KAMRAN AKMAL">
+
+    <title>Abbas Ali Arif [CONCEPT BY KAMRAN AKMAL]| Real Estate Consultant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <a href="#" class="brand">
+            <span class="brand-name">Abbas Ali Arif</span>
+            <span class="brand-role">Real Estate Consultant</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Main navigation">
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#contact" class="nav-cta">Get in touch</a>
+
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+        >
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="hero-label">
+                    Real Estate Consultant · Mumbai & Dubai
+                </p>
+
+                <h1>
+                    Helping you make
+                    <span>the right choice.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Residential and commercial real estate guidance
+                    for buying, selling and renting across Mumbai and Dubai. BY KAMRAN AKMAL CONCEPT DESIGN
+                </p>
+
+                <a href="#properties" class="hero-button">
+                    Explore properties
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+            <div class="hero-image">
+                <div class="hero-image-label">
+                    <span>Residential</span>
+                    <span>Commercial</span>
+                </div>
+            </div>
+
+        </section>
+        <section class="properties-section" id="properties">
+
+    <div class="section-heading">
+        <div>
+            <p class="section-label">FEATURED PROPERTIES</p>
+            <h2>Spaces worth<br>looking at.</h2>
+        </div>
+
+        <p class="section-intro">
+            Explore a selection of residential and commercial
+            properties across Mumbai and Dubai.
+        </p>
+    </div>
+
+
+    <div class="property-grid">
+
+        <article class="property-card">
+
+            <div class="property-image">
+                <img
+                    src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85"
+                    alt="Modern luxury apartment interior"
+                >
+
+                <span class="property-type">Residential</span>
+            </div>
+
+            <div class="property-info">
+
+                <div>
+                    <h3>Modern 3 BHK Residence</h3>
+                    <p class="property-location">Mumbai, Maharashtra</p>
+                </div>
+
+                <div class="property-meta">
+                    <span>3 Beds</span>
+                    <span>3 Baths</span>
+                    <span>1,650 sq ft</span>
+                </div>
+
+                <div class="property-bottom">
+                    <strong>₹2.40 Cr</strong>
+                    <a href="#contact">Enquire ↗</a>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image">
+                <img
+                    src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1200&q=85"
+                    alt="Luxury apartment living room"
+                >
+
+                <span class="property-type">Residential</span>
+            </div>
+
+            <div class="property-info">
+
+                <div>
+                    <h3>Contemporary Dubai Apartment</h3>
+                    <p class="property-location">Dubai, UAE</p>
+                </div>
+
+                <div class="property-meta">
+                    <span>2 Beds</span>
+                    <span>2 Baths</span>
+                    <span>1,200 sq ft</span>
+                </div>
+
+                <div class="property-bottom">
+                    <strong>AED 1.80M</strong>
+                    <a href="#contact">Enquire ↗</a>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="property-card">
+
+            <div class="property-image">
+                <img
+                    src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=85"
+                    alt="Luxury modern house"
+                >
+
+                <span class="property-type">Villa</span>
+            </div>
+
+            <div class="property-info">
+
+                <div>
+                    <h3>Contemporary Family Villa</h3>
+                    <p class="property-location">Dubai, UAE</p>
+                </div>
+
+                <div class="property-meta">
+                    <span>4 Beds</span>
+                    <span>5 Baths</span>
+                    <span>3,200 sq ft</span>
+                </div>
+
+                <div class="property-bottom">
+                    <strong>AED 4.50M</strong>
+                    <a href="#contact">Enquire ↗</a>
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+<section class="services-section" id="services">
+
+    <div class="services-intro">
+        <p class="section-label">WHAT I DO</p>
+
+        <h2>
+            Real estate guidance,
+            <span>made straightforward.</span>
+        </h2>
+
+        <p>
+            Whether you're looking to buy, sell or rent,
+            I help you navigate the process with practical
+            guidance and a clear understanding of the market.
+        </p>
+    </div>
+
+
+    <div class="services-list">
+
+        <article class="service-item">
+            <span class="service-number">01</span>
+
+            <div class="service-content">
+                <h3>Buy</h3>
+                <p>
+                    Find residential and commercial properties
+                    suited to your requirements and budget.
+                </p>
+            </div>
+
+            <span class="service-arrow">↗</span>
+        </article>
+
+
+        <article class="service-item">
+            <span class="service-number">02</span>
+
+            <div class="service-content">
+                <h3>Sell</h3>
+                <p>
+                    Get guidance through the process of presenting,
+                    marketing and selling your property.
+                </p>
+            </div>
+
+            <span class="service-arrow">↗</span>
+        </article>
+
+
+        <article class="service-item">
+            <span class="service-number">03</span>
+
+            <div class="service-content">
+                <h3>Rent</h3>
+                <p>
+                    Assistance with residential rentals,
+                    commercial spaces and office leasing.
+                </p>
+            </div>
+
+            <span class="service-arrow">↗</span>
+        </article>
+
+    </div>
+
+
+    <div class="service-tags">
+        <span>Residential</span>
+        <span>Commercial</span>
+        <span>Office Leasing</span>
+        <span>Resale</span>
+        <span>Under-construction Projects</span>
+    </div>
+
+</section>
+<section class="about-section" id="about">
+
+    <div class="about-image">
+        <img
+            src="https://images.unsplash.com/photo-1600607688960-e095ff83135c?auto=format&fit=crop&w=1400&q=85"
+            alt="Modern residential property"
+        >
+
+        <div class="about-image-caption">
+            <span>Mumbai</span>
+            <span>Dubai</span>
+        </div>
+    </div>
+
+
+    <div class="about-content">
+
+        <p class="section-label">ABOUT ABBAS</p>
+
+        <h2>
+            Real estate is about
+            <span>making the right choice.</span>
+        </h2>
+
+        <p class="about-lead">
+            Abbas Ali Arif is a real estate consultant providing
+            residential and commercial property services across
+            Mumbai and Dubai.
+        </p>
+
+        <p>
+            From buying and selling to renting and property
+            consultancy, the focus is on understanding each
+            client's requirements and helping them navigate
+            the real estate process with clarity.
+        </p>
+
+        <div class="about-details">
+
+    <div class="location-card location-mumbai">
+        <div class="location-overlay"></div>
+        <div class="location-content">
+            <span>01</span>
+            <h3>Mumbai</h3>
+            <p>Residential & commercial</p>
+        </div>
+    </div>
+
+    <div class="location-card location-dubai">
+        <div class="location-overlay"></div>
+        <div class="location-content">
+            <span>02</span>
+            <h3>Dubai</h3>
+            <p>Residential & commercial</p>
+        </div>
+    </div>
+
+</div>
+
+    </div>
+
+</section>
+<section class="reviews-section" id="reviews">
+
+    <div class="reviews-header">
+
+        <div>
+            <p class="section-label">CLIENT REVIEWS</p>
+
+            <h2>
+                Trusted by
+                <span>his clients.</span>
+            </h2>
+        </div>
+
+        <div class="google-rating">
+            <strong>4.9</strong>
+
+            <div>
+                <div class="stars">★★★★★</div>
+                <p>171 reviews on Google</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="reviews-grid">
+
+        <article class="review-card">
+
+            <div class="review-top">
+                <span class="review-stars">★★★★★</span>
+                <span class="review-source">Google</span>
+            </div>
+
+            <p class="review-text">
+                “Abbas has been extremely professional and helpful
+                throughout the entire process. He understood exactly
+                what we were looking for and guided us accordingly.”
+            </p>
+
+            <div class="review-author">
+                <span class="review-avatar">A</span>
+
+                <div>
+                    <strong>Client review</strong>
+                    <span>Google</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+            <div class="review-top">
+                <span class="review-stars">★★★★★</span>
+                <span class="review-source">Google</span>
+            </div>
+
+            <p class="review-text">
+                “Very professional and responsive. The entire
+                experience was smooth and Abbas was always available
+                whenever we needed assistance.”
+            </p>
+
+            <div class="review-author">
+                <span class="review-avatar">R</span>
+
+                <div>
+                    <strong>Client review</strong>
+                    <span>Google</span>
+                </div>
+            </div>
+
+        </article>
+
+
+        <article class="review-card">
+
+            <div class="review-top">
+                <span class="review-stars">★★★★★</span>
+                <span class="review-source">Google</span>
+            </div>
+
+            <p class="review-text">
+                “A very trustworthy consultant with good knowledge
+                of the market. Would definitely recommend his
+                services.”
+            </p>
+
+            <div class="review-author">
+                <span class="review-avatar">S</span>
+
+                <div>
+                    <strong>Client review</strong>
+                    <span>Google</span>
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+
+
+    <div class="reviews-footer">
+
+        <p>
+            Read more experiences from clients on Google.
+        </p>
+
+        <a href="#" target="_blank" rel="noopener">
+            View all Google reviews ↗
+        </a>
+
+    </div>
+
+</section>
+<section class="contact-section" id="contact">
+
+    <div class="contact-content">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>
+            Let's find the
+            <span>right property.</span>
+        </h2>
+
+        <p class="contact-description">
+            Looking to buy, sell or rent? Get in touch to discuss
+            your requirements and explore your options.
+        </p>
+
+        <div class="contact-actions">
+
+            <a href="#" class="contact-button primary">
+                Contact Abbas
+                <span>↗</span>
+            </a>
+
+            <a href="#" class="contact-button secondary">
+                WhatsApp
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="location-card">
+
+        <div class="location-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2700.2490188672696!2d72.81789463695567!3d18.965814937762403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7cf3a21a3caf9%3A0x742f85a31c664886!2sReal%20Estate%20Consultant%20-%20Abbas%20Ali%20Arif!5e0!3m2!1sen!2sin!4v1790178673204!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+        <div class="location-info">
+
+            <p class="location-label">OFFICE</p>
+
+            <h3>Mumbai, Maharashtra</h3>
+
+            <p>
+                Lamington Road · Mumbai Central
+            </p>
+
+            <a href="#" class="directions-link">
+                Open in Google Maps ↗
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+    
+<footer class="site-footer">
+
+    <div class="footer-main">
+
+        <div class="footer-brand">
+            <a href="#" class="footer-name">
+                Abbas Ali Arif
+            </a>
+
+            <p>
+                Real Estate Consultant<br>
+                Mumbai · Dubai
+            </p>
+        </div>
+
+
+        <div class="footer-column">
+            <span class="footer-label">EXPLORE</span>
+
+            <a href="#properties">Properties</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        <div class="footer-column">
+            <span class="footer-label">CONNECT</span>
+
+            <a href="https://www.instagram.com/real.estateconsultant52" target="_blank">
+                Instagram ↗
+            </a>
+
+            <a href="https://wa.me/919820941582" target="_blank">
+                WhatsApp ↗
+            </a>
+
+            <a href="https://bio.link/abbasaliarif" target="_blank">
+                Bio.link ↗
+            </a>
+        </div>
+
+
+        <div class="footer-column">
+            <span class="footer-label">MORE</span>
+
+            <a href="https://bio.link/abbasaliarif" target="_blank">
+                Property Catalogue ↗
+            </a>
+
+            <a href="https://bio.link/abbasaliarif" target="_blank">
+                RERA Information ↗
+            </a>
+
+            <a href="https://www.google.com/maps" target="_blank">
+                Google Maps ↗
+            </a>
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+        <span>© 2026 Abbas Ali Arif</span>
+        <span>Real Estate Consultant</span>
+    </div>
+
+</footer>
+
+<script src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
